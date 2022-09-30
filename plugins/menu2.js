@@ -176,7 +176,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
              {
              urlButton: {
                displayText: 'Owner',
-               PhoneNumber: 'https://wa.me/6287892711054'
+               PhoneNumber: 'https://wa.me/6289516353968'
              }
 
            },
@@ -190,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
               {
             quickReplyButton: {
               displayText: 'SC',
-              id: '.sc',
+              id: 'gada sc sc sana sana hus hus',
             }
            }]
          }
