@@ -37,7 +37,7 @@ let levelling = require('../lib/levelling')
 ⁙╭⃝━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ▣ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━─▣
 ⁙┃╭┈─────────────⩵꙰ཱི࿐
 ⁙┃╰───━⃝┅❲ *%category* ❳┅⃝━───ꕥ ↶↷
-⁙├☆─〔 HAORI CHAN 〕──┈➤`,
+⁙├☆─〔 MallBot-MD 〕──┈➤`,
   body: `⁙├〲 %cmd %islimit %isPremium`,
   footer: `⁙╰•──────━⃝┅⃝━─═┅═━–┈ ⳹`,
   after: `
@@ -227,7 +227,7 @@ const hariRaya = new Date('January 1, 2023 23:59:59')
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let waofc = `@${'0'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let ow = `@${'6282179137771'.split('@')[0]}`
+ let ow = `@${'6289516353968'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
 let mode = global.opts['self'] ? 'Private' : 'Public'
 let fkon = { key:
@@ -313,7 +313,7 @@ let fkon = { key:
 │◦〉 Mode : ${mode}
 │◦〉 Runtime: ${uptime}
 │◦〉 Bot Name : ${conn.user.name}
-│◦〉 Name Owner: Zivfurr & Haori
+│◦〉 Name Owner: Mall
 │◦〉 Register : ${totalreg}
 │◦〉 Database : Lowdb
 ╰━–━–━–━–━–⊙–━–━–━–━┈▧`
