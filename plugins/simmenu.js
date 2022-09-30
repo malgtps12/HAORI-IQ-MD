@@ -8,7 +8,7 @@ let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
    before: ` 
-─────────•〔 ll нασяι-вσт ཻུ⸙͎ 〕•─────────
+─────────•〔 ll MallBot-MD ཻུ⸙͎ 〕•─────────
 
 🎐  *Name:* %name
 🎐  *Tersisa:* %limit Limit
@@ -38,7 +38,7 @@ const defaultMenu = {
 ⁙╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━  ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮
 ⁙┃╭┈─────────────⩵꙰ཱི࿐
 ⁙┃╰───━⃝┅ *%category* ┅⃝━───ꕥ ↶↷*
-⁙├☆─〔 HAORI CHAN 〕──┈➤`,
+⁙├☆─〔 MallBot-MD 〕──┈➤`,
   body: `⁙├〲 %cmd %islimit %isPremium`,
   footer: `⁙╰•──────━⃝┅⃝━─────┈ ⳹`,
   after: `
@@ -242,7 +242,7 @@ const defaultMenu = {
     itemCount : 999,
     status: 1,
     surface : 1,
-    message: `廾ΛӨЯI IQ MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`, 
+    message: `MallBot-MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/8450b71563bdbfb85b98d.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -257,11 +257,11 @@ _${pickRandom(global.motivasi)}_
     
 ╭──── 「 *BOT INFO* 」 ────┈ ⳹
 │ 
-│❒͡ *Bot Name: HAORI IQ MD*
-│❒͡ *Creator: Stah Ziv San*
+│❒͡ *Bot Name: MallBot-MD*
+│❒͡ *Creator: Mall*
 │❒͡ *Contact Owner Bot*
-│ *https://wa.me/*
-│❒͡ *Tanggal: 9 Juli 2022*  
+│ *https://wa.me/6289516353968*
+│❒͡ *Tanggal: 30 September 2022*  
 │❒͡ *Jam: ${time} WIB*
 │❒͡ *Status: 「 ${mode} 」*
 │❒͡ *Prefix: 「 MULTI PREFIX 」*
@@ -272,7 +272,7 @@ _${pickRandom(global.motivasi)}_
 │❒͡  𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍 
 │❒͡ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 │ 
-╰──── 「 *HAORI BOT* 」 ────┈ ⳹
+╰──── 「 *MallBot-MD* 」 ────┈ ⳹
 
 ❉─────────────────────❉  
 ◦ *Nama: ${name}*
@@ -289,13 +289,13 @@ _${pickRandom(global.motivasi)}_
 *⟣┈────「 BOT STATUS 」 ────┈⟢*
 ❏ *Runtime ${uptime}*
 𒍮 *User Register: ${totalreg}*
-*⟣┈───「 HAORI BOT 」 ──────┈⟢*`
+*⟣┈───「 MallBot-MD 」 ──────┈⟢*`
 
 let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner`
              let judul = `${ucapan()}`.trim() 
        const sections = [ 
        { 
-         title: 'List Menu Haoribotz ', 
+         title: 'List Menu MallBot-MD', 
          rows: [ 
            { title: '💬 ꒱「  ❖ Semua Perintah ⤸ 」',  description: 'Menampilkan semua fitur dari bot', rowId: '.? all' }, 
            { title: '🎮 ꒱「  ❖ Game ⤸ 」', description: 'Menampilkan fitur dari game', rowId: '.? game' }, 
@@ -390,14 +390,14 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
              description: 'Now Playing...', 
              mediaType: 2, 
            thumbnail: await (await fetch('https://telegra.ph/file/1f8e012df6e4aca2fbd11.jpg')).buffer(), 
-          mediaUrl: `${pickRandom([`https://youtu.be/35w7z9QFLwY`, `https://www.instagram.com/the.sad.boy01`])}`,
+          mediaUrl: `${pickRandom([`https://youtu.be/35w7z9QFLwY`, `https://www.instagram.com/xzdk.m`])}`,
          } 
       } 
    })
    conn.sendFile(m.chat, bzz, 'haori.mp3', null, m, true, {
 type: 'audioMessage', // paksa tanpa convert di ffmpeg
-ptt: true, contextInfo:{externalAdReply: {title: '𝙷𝙰𝙾𝚁𝙸𝙱𝙾𝚃𝚉 𝚂𝙴𝙽𝙶𝙾𝙻 𝙳𝙾𝙽𝙶 :v', body: `${pickRandom(['Simple Bot WhatsApp', 'Create By Zivfurr', 'Furry Botz By Zivfurr'])}`, sourceUrl: 'https://bit.ly/3N024o9', thumbnail: await (await fetch('https://telegra.ph/file/8501db84d6e15b55c6273.jpg')).buffer(),}} 
-     }) 
+ptt: true, contextInfo:{externalAdReply: {title: 'MallBot-MD nih jangan di senggol🗿 :v', body: `${pickRandom(['Simple Bot WhatsApp', 'Create By Mall', 'MallBot-MD by Mall'])}`, sourceUrl: 'https://bit.ly/3N024o9', thumbnwait (await fetch('https://telegra.ph/file/8501db84d6e15b55c6273.jpg')).buffer(),}}
+     }) 
    } catch (e) { 
      conn.reply(m.chat, 'Maaf, menu sedang error', m) 
      throw e 
