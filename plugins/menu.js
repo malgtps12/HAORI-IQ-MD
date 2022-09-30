@@ -7,7 +7,7 @@ let levelling = require('../lib/levelling')
  let PhoneNumber = require('awesome-phonenumber') 
  const defaultMenu = { 
    before: ` 
-꒦꒷꒷꒦꒷꒦꒦꒦꒷•〔 ll нασяι-вσт ཻུ⸙͎ 〕•꒦꒷꒷꒦꒷꒷꒦꒦꒷
+꒦꒷꒷꒦꒷꒦꒦꒦꒷•〔 ll MallBot-MD ཻུ⸙͎ 〕•꒦꒷꒷꒦꒷꒷꒦꒦꒷
 
  ✘⃟🎋   *Name:* %name
  ✘⃟🎋   *Tersisa:* %limit Limit
@@ -234,7 +234,7 @@ let fkon = { key:
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "60149431385-1618206438@g.us" } : {}) },
-	 message: { contactMessage: { displayName: `${pickRandom(['HAORI IQ-MD', 'Create By Ziv San', 'Simple Bot Whatsapp'])}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:Zivfurr\nitem1.TEL;waid=6285158866902:6285158866902\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
+	 message: { contactMessage: { displayName: `${pickRandom(['MallBot-MD', 'Create By Mall', 'Simple Bot Whatsapp'])}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:Mall\nitem1.TEL;waid=6289516353968:6289516353968\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')}}
 	}
  const haori = {
     key : {
@@ -344,7 +344,7 @@ let ftt = `📮 Catatan: Perlakukan Bot Secara Baik, Dev Akan Bertindak Tegas Ap
      let header = conn.menu.header || defaultMenu.header 
      let body = conn.menu.body || defaultMenu.body 
      let footer = conn.menu.footer || defaultMenu.footer 
-     let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Dipersembahkan oleh https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after 
+     let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Dipersembahkan oleh https://wa.me/6289516353968${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after 
      let _text = [ 
        before, 
        ...Object.keys(tags).map(tag => { 
