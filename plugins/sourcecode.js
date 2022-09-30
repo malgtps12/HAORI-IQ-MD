@@ -10,12 +10,12 @@ let esce = `
            「  SC BOT MD  」
 ╭─❑
 │✾ SCRIPT: PRIVATE 🔒
-│✾ BASE: https://github.com/ilmanhdyt/ShiraoriBOT-Md
+│✾ BASE: -
 ╰─❑
          「  SC BOT NON MD 」
 ╭─❑
-│✾ https://github.com/PilarV2/Zeus-BotzV2
-│✾ https://github.com/PilarV2/Zeus-BotzV5
+│✾ -
+│✾ -
 ╰─❑`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -25,7 +25,7 @@ let esce = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'MY GITHUB',
-               url: 'github.com/PilarV2'
+               url: 'github.com/malgtps'
              }
 
            },
