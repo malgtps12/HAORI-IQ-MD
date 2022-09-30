@@ -27,7 +27,7 @@ let anu =`╭───❑ 「 BALANCE 」 ❑────
            hydratedButtons: [{
              urlButton: {
                displayText: 'MY WEBSITE',
-               url: 'https://pilarv2.github.io/'
+               url: '-'
              }
 
            },
