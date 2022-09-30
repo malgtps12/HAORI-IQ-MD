@@ -257,8 +257,8 @@ _${pickRandom(global.motivasi)}_
     
 ╭──── 「 *BOT INFO* 」 ────┈ ⳹
 │ 
-│❒͡ *Bot Name: HAORI IQ MD*
-│❒͡ *Creator: Stah Ziv San*
+│❒͡ *Bot Name: MallBot-MD*
+│❒͡ *Creator: Mall Cowo Idamanmu*
 │❒͡ *Contact Owner Bot*
 │ *https://wa.me/6289516353968*
 │❒͡ *Tanggal: 30 September 2022*  
